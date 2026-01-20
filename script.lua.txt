@@ -36,63 +36,6 @@ local MainWindow = LibraryLoader:CreateWindow({
         ["FileName"] = "Config"
     }
 });
-local KeyTab = MainWindow:CreateTab("Key", 4483362458);
-KeyTab:CreateSection("Key Verification");
-KeyTab:CreateInput({
-    ["Name"] = "Enter Key",
-    ["Flag"] = "KeyInput",
-    ["CurrentValue"] = "",
-    ["PlaceholderText"] = "Enter key here...",
-    ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, ParameterA, ParameterB, ParameterC, ...)
-
-    end,
-    ["RemoveTextAfterFocusLost"] = false
-});
-KeyTab:CreateButton({
-    ["Name"] = "Copy Discord Link",
-    ["Callback"] = function(Parameter12, Parameter22, Parameter32, Parameter42, ParameterA2, ParameterB2, ParameterC2, ...)
-        local RandomValue7 = pcall(function(Parameter13, Parameter23, Parameter33, Parameter43, ParameterA3, ParameterB3, ParameterC3, ...)
-            local ClipboardValue = FunctionEnvironment.setclipboard("https://discord.gg/CfbQjrrz3w");
-        end);
-        LibraryLoader:Notify({
-            ["Duration"] = 5,
-            ["Title"] = "Discord Copied",
-            ["Content"] = "Discord invite copied to clipboard!"
-        });
-    end
-});
-KeyTab:CreateButton({
-    ["Name"] = "Verify Key",
-    ["Callback"] = function(Parameter14, Parameter24, Parameter34, Parameter44, Parameter54, ParameterA4, ParameterB4, ParameterC4, ...)
-        if not ((tostring(
-            tostring(Parameter1)
-        ) == "dahood971!!")) then
-        else
-            LibraryLoader:Notify({
-                ["Duration"] = 3,
-                ["Title"] = "Key Accepted",
-                ["Content"] = "All tabs unlocked successfully!"
-            });
-        end;
-        CreateMainTabs();
-    end
-});
-KeyTab:CreateParagraph({
-    ["Title"] = "How to get key?",
-    ["Content"] = "Join to discord to get the key : https://discord.gg/CfbQjrrz3w"
-});
-local UserInputService_TouchEnabled = UserInputService.TouchEnabled;
-if (UserInputService_TouchEnabled and function(ParameterA6, ParameterB6, ParameterC6, ...)
-    return 4866935;
-end) then
-    RandomValue1 = not UserInputService_TouchEnabled;
-end;
-if RandomValue1 then
-    if Enum.UserInputType.MouseButton2 then
-        ColorFromRgb = Color3.fromRGB;
-        local ColorValue = ColorFromRgb(0, 255, 0);
-    end;
-end;
 local ShapeCircle = FunctionEnvironment.Drawing.new("Circle");
 ShapeCircle.Visible = false;
 ShapeCircle.Radius = 80;
@@ -639,3 +582,4 @@ local CharacterChanged = CurrentPlayer.CharacterChanged;
 CharacterChanged:Connect(function(Parameter1, Parameter2, ArgumentA, ArgumentB, ArgumentC, ...)
     local ValidationStatus = not Parameter2;
 end);
+
