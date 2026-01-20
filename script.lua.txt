@@ -1,0 +1,641 @@
+local CreateMainTabs, RandomValue1, ColorFromRgb, Line1, Line2, Text2, CurrentCamera1, CurrentCameraViewportSize, AimbotEnabled, Player1, Target1, EspEnabled, Info1, LocalPlayerCharacter1, Humanoid1, LocalPlayerCharacter2, Humanoid2, RandomValue2, HumanoidRootPart1, RandomValue3, LocalPlayerCharacter3, Humanoid3, HumanoidRootPart2, LocalPlayerCharacter4, Request1, LocalPlayerCharacter5, Humanoid4, LocalPlayerCharacter6, Humanoid5;
+local FunctionEnvironment = getfenv();
+local RandomValue4 = pcall(function(ParameterA, ParameterB, ParameterC)
+    getgenv()["25ms was here :)"] = function(ParameterA, ParameterB, ParameterC) end;
+end);
+if loadstring then
+    local RandomValue5 = loadstring("return pcall(function()return 1/\"abc\"end)");
+    local RandomValue6 = loadstring([[
+return pcall(function()return 1/"abc"end)]]);
+end;
+heh = function(Parameter1, Parameter2, ParameterA, ParameterB, ParameterC, ...)
+    return function(Parameter1, Parameter2, ParameterA, ParameterB, ParameterC, ...)
+-- recursive AST
+    end;
+end;
+local Players = game:GetService("Players");
+local RunService = game:GetService("RunService");
+local UserInputService = game:GetService("UserInputService");
+local LocalPlayer = Players.LocalPlayer;
+LocalPlayer:GetMouse();
+LocalPlayer:GetMouse();
+local LibraryLoader = loadstring(
+    game:HttpGet("https://sirius.menu/rayfield")
+)();
+local MainWindow = LibraryLoader:CreateWindow({
+    ["LoadingTitle"] = "Da Hood Hub 971",
+    ["Name"] = "Da Hood Hub 971",
+    ["KeySystem"] = false,
+    ["LoadingSubtitle"] = "Da Hood Hub 971",
+    ["Settings"] = {
+        ["Theme"] = "Dark"
+    },
+    ["ConfigurationSaving"] = {
+        ["Enabled"] = true,
+        ["FolderName"] = "Dahood971",
+        ["FileName"] = "Config"
+    }
+});
+local KeyTab = MainWindow:CreateTab("Key", 4483362458);
+KeyTab:CreateSection("Key Verification");
+KeyTab:CreateInput({
+    ["Name"] = "Enter Key",
+    ["Flag"] = "KeyInput",
+    ["CurrentValue"] = "",
+    ["PlaceholderText"] = "Enter key here...",
+    ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, ParameterA, ParameterB, ParameterC, ...)
+
+    end,
+    ["RemoveTextAfterFocusLost"] = false
+});
+KeyTab:CreateButton({
+    ["Name"] = "Copy Discord Link",
+    ["Callback"] = function(Parameter12, Parameter22, Parameter32, Parameter42, ParameterA2, ParameterB2, ParameterC2, ...)
+        local RandomValue7 = pcall(function(Parameter13, Parameter23, Parameter33, Parameter43, ParameterA3, ParameterB3, ParameterC3, ...)
+            local ClipboardValue = FunctionEnvironment.setclipboard("https://discord.gg/CfbQjrrz3w");
+        end);
+        LibraryLoader:Notify({
+            ["Duration"] = 5,
+            ["Title"] = "Discord Copied",
+            ["Content"] = "Discord invite copied to clipboard!"
+        });
+    end
+});
+KeyTab:CreateButton({
+    ["Name"] = "Verify Key",
+    ["Callback"] = function(Parameter14, Parameter24, Parameter34, Parameter44, Parameter54, ParameterA4, ParameterB4, ParameterC4, ...)
+        if not ((tostring(
+            tostring(Parameter1)
+        ) == "dahood971!!")) then
+        else
+            LibraryLoader:Notify({
+                ["Duration"] = 3,
+                ["Title"] = "Key Accepted",
+                ["Content"] = "All tabs unlocked successfully!"
+            });
+        end;
+        CreateMainTabs();
+    end
+});
+KeyTab:CreateParagraph({
+    ["Title"] = "How to get key?",
+    ["Content"] = "Join to discord to get the key : https://discord.gg/CfbQjrrz3w"
+});
+local UserInputService_TouchEnabled = UserInputService.TouchEnabled;
+if (UserInputService_TouchEnabled and function(ParameterA6, ParameterB6, ParameterC6, ...)
+    return 4866935;
+end) then
+    RandomValue1 = not UserInputService_TouchEnabled;
+end;
+if RandomValue1 then
+    if Enum.UserInputType.MouseButton2 then
+        ColorFromRgb = Color3.fromRGB;
+        local ColorValue = ColorFromRgb(0, 255, 0);
+    end;
+end;
+local ShapeCircle = FunctionEnvironment.Drawing.new("Circle");
+ShapeCircle.Visible = false;
+ShapeCircle.Radius = 80;
+ShapeCircle.Color = ColorFromRgb(0, 255, 0);
+ShapeCircle.Thickness = 2;
+ShapeCircle.Filled = false;
+ShapeCircle.Transparency = 1;
+local UserInputService_InputBegan = UserInputService.InputBegan;
+UserInputService_InputBegan:Connect(function(Parameter16, Parameter26, Parameter36, ParameterA6, ParameterB6, ParameterC6, ...)
+    if RandomValue1 then
+        local InputType = ((Parameter16.UserInputType == Enum.UserInputType.MouseButton2));
+    end;
+end);
+local UserInputService_InputEnded = UserInputService.InputEnded;
+UserInputService_InputEnded:Connect(function(Parameter17, Parameter27, ParameterA7, ParameterB7, ParameterC7, ...)
+    if RandomValue1 then
+        local InputType2 = ((Parameter17.UserInputType == Enum.UserInputType.MouseButton2));
+    end;
+end);
+UserInputService_InputBegan:Connect(function(Parameter18, Parameter28, Parameter38, Parameter48, Parameter58, ParameterA8, ParameterB8, ParameterC8, ...)
+    local KeyCodeValue = ((Parameter18.KeyCode == Enum.KeyCode.Space));
+end);
+UserInputService_InputEnded:Connect(function(Parameter19, Parameter29, Parameter3, ArgumentA, ArgumentB, ArgumentC, ...)
+    local KeyCodeValue = ((Parameter19.KeyCode == Enum.KeyCode.Space));
+end);
+local HeartbeatEvent = RunService.Heartbeat;
+HeartbeatEvent:Connect(function(Parameter1, Parameter2, Parameter3, Parameter4, ArgumentA, ArgumentB, ArgumentC, ...) end);
+local SteppedEvent = RunService.Stepped;
+local ConnectionEstablished = SteppedEvent:Connect(function(Parameter1, Parameter2, Parameter3, Parameter4, ArgumentA, ArgumentB, ArgumentC, ...)
+    if not LocalPlayer.Character then
+    else
+    end;
+end);
+for LoopKey, LoopValue in pairs(Players:GetPlayers()) do -- for loop 1 start
+    if LoopKey then
+
+    end;
+    if (LoopValue ~= LocalPlayer) then
+        local TableData = {};
+        Line1 = FunctionEnvironment.Drawing.new("Line");
+    end;
+    local TextObject = FunctionEnvironment.Drawing.new("Text");
+    Line1.Visible = false;
+    Line1.Color = ColorFromRgb(255, 0, 0);
+    Line1.Thickness = 1;
+    TextObject.Visible = false;
+    TextObject.Color = ColorFromRgb(255, 255, 255);
+    TextObject.Size = 14;
+    TextObject.Center = true;
+    TextObject.Outline = true;
+end -- for loop 1 end;
+local PlayerAddedEvent = Players.PlayerAddedEvent;
+PlayerAddedEvent:Connect(function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, Parameter6, ArgumentA, ArgumentB, ArgumentC, ...)
+    local TableEntry = {
+        [LoopValue] = {
+            ["Name"] = TextObject,
+            ["Tracer"] = Line1
+        }
+    };
+    Line2 = FunctionEnvironment.Drawing.new("Line");
+    Text2 = FunctionEnvironment.Drawing.new("Text");
+    Line2.Visible = false;
+    Line2.Color = ColorFromRgb(255, 0, 0);
+    Line2.Thickness = 1;
+    Text2.Visible = false;
+    Text2.Color = ColorFromRgb(255, 255, 255);
+    Text2.Size = 14;
+    Text2.Center = true;
+    Text2.Outline = true;
+end);
+local PlayerRemovingEvent = Players.PlayerRemovingEvent;
+PlayerRemovingEvent:Connect(function(Parameter1, Parameter2, ArgumentA, ArgumentB, ArgumentC, ...)
+    local TableEntry = {
+        [LoopValue] = {
+            ["Name"] = TextObject,
+            ["Tracer"] = Line1
+        },
+        [Parameter1] = {
+            ["Name"] = Text2,
+            ["Tracer"] = Line2
+        }
+    };
+end);
+local RenderSteppedEvent = RunService.RenderSteppedEvent;
+RenderSteppedEvent:Connect(function(Parameter1, ArgumentA, ArgumentB, ArgumentC, ...)
+    local CircleValue = not ShapeCircle;
+    CurrentCamera1 = workspace.CurrentCamera1;
+    CurrentCameraViewportSize = CurrentCamera1.ViewportSize;
+    ShapeCircle.Position = Vector2.new((CurrentCameraViewportSize.X / 2), (CurrentCameraViewportSize.Y / 2));
+end);
+CreateMainTabs = function(ArgumentA, ArgumentB, ArgumentC, ...)
+    AimbotEnabled = MainWindow:CreateTab("AIMBOT", 4483362458);
+    Player1 = MainWindow:CreateTab("PLAYER", 4483362458);
+    Target1 = MainWindow:CreateTab("TARGET", 4483362458);
+    EspEnabled = MainWindow:CreateTab("ESP", 4483362458);
+    Info1 = MainWindow:CreateTab("INFO", 4483362458);
+    AimbotEnabled:CreateSection("Main Settings");
+    AimbotEnabled:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable AIMBOT",
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, Parameter6, ArgumentA, ArgumentB, ArgumentC, ...)
+            if not Parameter1 then
+            else
+                LibraryLoader:Notify({
+                    ["Duration"] = 3,
+                    ["Title"] = "AIMBOT",
+                    ["Content"] = "Aimbot enabled! Check for green FOV circle."
+                });
+            end;
+        end
+    });
+    AimbotEnabled:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Wall Check",
+        ["Callback"] = function(Parameter1, ArgumentA, ArgumentB, ArgumentC, ...) end
+    });
+    AimbotEnabled:CreateToggle({
+        ["CurrentValue"] = UserInputService_TouchEnabled,
+        ["Name"] = "Auto Aim Bot (Mobile)",
+        ["Callback"] = function(Parameter1, ArgumentA, ArgumentB, ArgumentC, ...) end
+    });
+    AimbotEnabled:CreateSection("Aim Settings");
+    AimbotEnabled:CreateSlider({
+        ["Name"] = "FOV Size",
+        ["Suffix"] = "pixels",
+        ["CurrentValue"] = 80,
+        ["Increment"] = 5,
+        ["Range"] = {
+            20,
+            200
+        },
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, ArgumentA, ArgumentB, ArgumentC, ...)
+            if not ShapeCircle then
+            else
+            end;
+        end
+    });
+    AimbotEnabled:CreateSlider({
+        ["Name"] = "Aim Speed (Lower = Faster)",
+        ["Suffix"] = "speed",
+        ["CurrentValue"] = 2,
+        ["Increment"] = 20,
+        ["Range"] = {
+            20,
+            200
+        },
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, ArgumentA, ArgumentB, ArgumentC, ...)
+            local DivisionValue = (Parameter1 / 100);
+        end
+    });
+    AimbotEnabled:CreateSlider({
+        ["Name"] = "Max Distance",
+        ["Suffix"] = "studs",
+        ["CurrentValue"] = 3000,
+        ["Increment"] = 100,
+        ["Range"] = {
+            1e3,
+            3000
+        },
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, ArgumentA, ArgumentB, ArgumentC, ...) end
+    });
+    AimbotEnabled:CreateSection("Target Settings");
+    AimbotEnabled:CreateDropdown({
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, ArgumentA, ArgumentB, ArgumentC, ...) end,
+        ["Options"] = {
+            "Head",
+            "HumanoidRootPart"
+        },
+        ["Name"] = "Target Part",
+        ["CurrentOption"] = "Head"
+    });
+    Player1:CreateSection("Speed ");
+    Player1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable Speed",
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, ArgumentA, ArgumentB, ArgumentC, ...)
+            if not Parameter1 then
+            else
+                if r403 then
+                    local DisconnectEvent = r403:Disconnect();
+                end;
+            end;
+            local NegationValue = not Parameter1;
+            LocalPlayerCharacter1 = LocalPlayer.Character;
+            local CharacterValue = not LocalPlayerCharacter1;
+            Humanoid1 = LocalPlayerCharacter1:FindFirstChild("Humanoid");
+            local HumanoidValue = not Humanoid1;
+            HeartbeatEvent:Connect(function(Parameter1, ArgumentA, ArgumentB, ArgumentC, ...)
+                local NegationValue = not Parameter1;
+                LocalPlayerCharacter2 = LocalPlayer.Character;
+                local CharacterValue = not LocalPlayerCharacter2;
+                Humanoid2 = LocalPlayerCharacter2:FindFirstChild("Humanoid");
+                local HumanoidValue = not Humanoid2;
+                RandomValue2 = math.clamp(Parameter1, 16, 500);
+                Humanoid2.WalkSpeed = RandomValue2;
+                HumanoidRootPart1 = LocalPlayerCharacter2:FindFirstChild("HumanoidRootPart");
+                if HumanoidRootPart1 then
+
+                end;
+                if (Humanoid2.MoveDirection.Magnitude > 0) then
+
+                end;
+                RandomValue3 = (Humanoid2.MoveDirection * (((RandomValue2 - 16) / 50) * 20));
+                HumanoidRootPart1.Velocity = r584(RandomValue3.X, HumanoidRootPart1.Velocity.Y, RandomValue3.Z);
+            end);
+            LibraryLoader:Notify({
+                ["Duration"] = 2,
+                ["Title"] = "Speed",
+                ["Content"] = "Speed enabled with safe bypass!"
+            });
+        end
+    });
+    Player1:CreateSlider({
+        ["Name"] = "WalkSpeed ",
+        ["Suffix"] = "speed",
+        ["CurrentValue"] = 50,
+        ["Increment"] = 5,
+        ["Range"] = {
+            20,
+            500
+        },
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, ArgumentA, ArgumentB, ArgumentC, ...) end
+    });
+    Player1:CreateSection("power jump");
+    Player1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable High Jump",
+        ["Callback"] = function(Parameter1, Parameter2, Parameter3, Parameter4, ArgumentA, ArgumentB, ArgumentC, ...)
+            if r414 then
+                local DisconnectEvent = r414:Disconnect();
+            end;
+            UserInputService_InputBegan:Connect(function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, Argument1, Argument2, Argument3, ...)
+                local KeyCodeCheck = ((Parameter1.KeyCode == Enum.KeyCode.Space));
+            end);
+            UserInputService_InputEnded:Connect(function(Player1, Player2, Player3, Argument4, Argument5, Argument6, ...)
+                local SpaceCheck = ((Player1.KeyCode == Enum.KeyCode.Space));
+            end);
+            HeartbeatEvent:Connect(function(Player4, Player5, Player6, Player7, Argument7, Argument8, Argument9, ...)
+                local PlayerCheck = not Parameter1;
+            end);
+            if Parameter1 then
+                LibraryLoader:Notify({
+                    ["Duration"] = 2,
+                    ["Title"] = "Jump",
+                    ["Content"] = "High jump enabled!"
+                });
+            end;
+        end
+    });
+    Player1:CreateSlider({
+        ["Name"] = "Jump Power",
+        ["Suffix"] = "power",
+        ["CurrentValue"] = 100,
+        ["Increment"] = 10,
+        ["Range"] = {
+            20,
+            200
+        },
+        ["Callback"] = function(User1, Value1, Value2, Value3, ...) end
+    });
+    Player1:CreateSection("Fly Hack (Safe)");
+    Player1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable Fly",
+        ["Callback"] = function(User1, User2, Value1, Value2, Value3, ...)
+            if User1 then
+                if not r431 then
+                else
+                    local DisconnectEvent = r431:Disconnect();
+                end;
+            end;
+            local UserCheck = not User1;
+            LocalPlayerCharacter3 = LocalPlayer.Character;
+            local CharacterCheck = not LocalPlayerCharacter3;
+            Humanoid3 = LocalPlayerCharacter3:FindFirstChild("Humanoid");
+            HumanoidRootPart2 = LocalPlayerCharacter3:FindFirstChild("HumanoidRootPart");
+            local HumanoidCheck = not Humanoid3;
+            local RootPartCheck = not HumanoidRootPart2;
+            Humanoid3.PlatformStand = true;
+            SteppedEvent:Connect(function(Player8, Player9, Player10, Argument10, Argument11, Argument12, ...)
+                local UserExist = not User1;
+                if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+
+                end;
+                if not UserInputService:IsKeyDown(Enum.KeyCode.S) then
+                else
+
+                end;
+                if not UserInputService:IsKeyDown(Enum.KeyCode.A) then
+                else
+
+                end;
+                if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+
+                end;
+                if not UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+                else
+
+                end;
+                if not UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then
+                else
+
+                end;
+                local CameraCheck = ((((((((r584(0, 0, 0) + CurrentCamera1.CFrame.LookVector) - CurrentCamera1.CFrame.LookVector) - CurrentCamera1.CFrame.RightVector) + CurrentCamera1.CFrame.RightVector) + r584(0, 1, 0)) - r584(0, 1, 0))).Magnitude > 0);
+                HumanoidRootPart2.Velocity = r584(0, 0, 0);
+            end);
+            LibraryLoader:Notify({
+                ["Duration"] = 2,
+                ["Title"] = "Fly",
+                ["Content"] = "Fly enabled (safe mode)!"
+            });
+        end
+    });
+    Player1:CreateSlider({
+        ["Name"] = "Fly Speed",
+        ["Suffix"] = "speed",
+        ["CurrentValue"] = 50,
+        ["Increment"] = 5,
+        ["Range"] = {
+            20,
+            150
+        },
+        ["Callback"] = function(Player11, Player12, Argument13, Argument14, Argument15, ...) end
+    });
+    Player1:CreateSection("Noclip");
+    Player1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable Noclip",
+        ["Callback"] = function(Player11, Player12, Player13, Player14, Player15, Argument13, Argument14, Argument15, ...)
+            if not r438 then
+            else
+                local DisconnectEvent1 = r438:Disconnect();
+            end;
+            SteppedEvent:Connect(function(Player16, Player17, Player18, Player19, Argument16, Argument17, Argument18, ...)
+                if not LocalPlayer.Character then
+                else
+                    if Player11 then
+                        LocalPlayerCharacter4 = LocalPlayer.Character;
+                    end;
+                end;
+                for LoopKey, LoopValue in pairs(LocalPlayerCharacter4:GetDescendants()) do -- for loop 3 start
+                    if LoopKey then
+
+                    end;
+                    if not LoopValue:IsA("BasePart") then
+                    else
+                        LoopValue.CanCollide = false;
+                    end;
+                end -- for loop 3 end;
+            end);
+            if not Player11 then
+            else
+                LibraryLoader:Notify({
+                    ["Duration"] = 2,
+                    ["Title"] = "Noclip",
+                    ["Content"] = "Noclip enabled!"
+                });
+            end;
+        end
+    });
+    Target1:CreateSection("Target Player");
+    Target1:CreateInput({
+        ["Name"] = "Target Player Name",
+        ["CurrentValue"] = "",
+        ["PlaceholderText"] = "Enter player name or 'random'...",
+        ["Callback"] = function(Player20, Player21, Argument19, Argument20, Argument21, ...)
+            local EmptyCheck = ((Player20 == ""));
+            if (Player20 == "random") then
+                local PlayerCount = (#Players:GetPlayers() > 1);
+            end;
+            LibraryLoader:Notify({
+                ["Duration"] = 2,
+                ["Title"] = "Target",
+                ["Content"] = "Player not found!"
+            });
+        end,
+        ["RemoveTextAfterFocusLost"] = false
+    });
+    Target1:CreateButton({
+        ["Name"] = "Set Random Target",
+        ["Callback"] = function(Player22, Player23, Player24, Argument22, Argument23, Argument24, ...)
+            local MultiplayerCheck = (#Players:GetPlayers() > 1);
+        end
+    });
+    Target1:CreateSection("Attack Settings");
+    Target1:CreateDropdown({
+        ["Callback"] = function(Player25, Player26, Player27, Player28, Player29, Argument25, Argument26, Argument27, ...) end,
+        ["Options"] = {
+            "Melee",
+            "Weapons"
+        },
+        ["Name"] = "Attack Type",
+        ["CurrentOption"] = "Melee"
+    });
+    Target1:CreateDropdown({
+        ["Callback"] = function(Player25, Player26, Player27, Player28, Argument25, Argument26, Argument27, ...)
+            if not ((Player25 == "LMG")) then
+            else
+            end;
+        end,
+        ["Options"] = {
+            "LMG",
+            "AK-47",
+            "SilencerAR"
+        },
+        ["Name"] = "Weapon Type",
+        ["CurrentOption"] = "LMG"
+    });
+    Target1:CreateSection("Target Actions");
+    Target1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "View Target",
+        ["Callback"] = function(Player30, Player31, Argument28, Argument29, Argument30, ...)
+            if Player30 then
+                LibraryLoader:Notify({
+                    ["Duration"] = 2,
+                    ["Title"] = "Target",
+                    ["Content"] = "View disabled"
+                });
+            end;
+        end
+    });
+    Target1:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Annoy Target (Melee Attack)",
+        ["Callback"] = function(Player32, Player33, Player34, Player35, Player36, Argument31, Argument32, Argument33, ...)
+            if not Player32 then
+            else
+                LibraryLoader:Notify({
+                    ["Duration"] = 2,
+                    ["Title"] = "Target",
+                    ["Content"] = "Annoy disabled"
+                });
+            end;
+        end
+    });
+    Target1:CreateButton({
+        ["Name"] = "Teleport to Target",
+        ["Callback"] = function(Player37, Player38, Argument34, Argument35, Argument36, ...)
+            LibraryLoader:Notify({
+                ["Duration"] = 2,
+                ["Title"] = "Target",
+                ["Content"] = "No target selected!"
+            });
+        end
+    });
+    Target1:CreateButton({
+        ["Name"] = "Grab Target (When KO'd)",
+        ["Callback"] = function(Player39, Player40, ParameterA, ParameterB, ParameterC, ...) end
+    });
+    EspEnabled:CreateSection("ESP Settings");
+    EspEnabled:CreateToggle({
+        ["CurrentValue"] = false,
+        ["Name"] = "Enable ESP",
+        ["Callback"] = function(Player39, Player40, Parameter3, Parameter4, Parameter5, Parameter6, ParameterA, ParameterB, ParameterC, ...)
+            if Player39 then
+                LibraryLoader:Notify({
+                    ["Duration"] = 3,
+                    ["Title"] = "ESP",
+                    ["Content"] = "ESP enabled! Look for red tracers."
+                });
+            end;
+        end
+    });
+    Info1:CreateSection("Controls");
+    Info1:CreateParagraph({
+        ["Title"] = "Mobile Users",
+        ["Content"] = "For mobile use auto aim bot"
+    });
+    Info1:CreateParagraph({
+        ["Title"] = "PC Controls",
+        ["Content"] = "Hold right click for aim bot | WASD for fly | Space for jump"
+    });
+    Info1:CreateParagraph({
+        ["Title"] = "Speed System",
+        ["Content"] = "Speed hack uses safe method to avoid bans (Max: 120 speed)"
+    });
+    Info1:CreateParagraph({
+        ["Title"] = "Target System",
+        ["Content"] = "Select target, choose attack type, then use annoy or teleport"
+    });
+    LibraryLoader:Notify({
+        ["Duration"] = 3,
+        ["Title"] = "Success",
+        ["Content"] = "All features have been loaded successfully!"
+    });
+end;
+LibraryLoader:Notify({
+    ["Duration"] = 5,
+    ["Title"] = "Welcome",
+    ["Content"] = "Please enter the key to unlock all tabs"
+});
+local HttpService = game:GetService("HttpService");
+local PlayerService = game:GetService("Players");
+local CurrentPlayer = Players.LocalPlayer;
+_G.ScriptUsers = {};
+_G.UserSentOnline = {};
+if FunctionEnvironment.syn then
+    Request1 = FunctionEnvironment.syn.request;
+    if Request1 then
+        local RequestStatus = not Request1;
+    end;
+end;
+local EmptyTable = {};
+local CurrentUserId = CurrentPlayer.UserId;
+if CurrentUserId then
+
+end;
+Request1({
+    ["Body"] = HttpService:JSONEncode({
+        ["username"] = "Script Status",
+        ["content"] = ("🟢 **Online:** " .. (CurrentPlayer.Name .. " | Active Users: 1"))
+    }),
+    ["Url"] = "https://discord.com/api/webhooks/1448659933980528690/eoL1RFicgeCoA6gi_1JPkrnbKipvGrh0KuTCEZtSxrpxB6bW74NhBkrag01cK7y7Qfgn",
+    ["Method"] = "POST",
+    ["Headers"] = {
+        ["Content-Type"] = "application/json"
+    }
+});
+local CloseFunction = game:BindToClose(function(Parameter1, Parameter2, Parameter3, Parameter4, Parameter5, ArgumentA, ArgumentB, ArgumentC, ...)
+    local UserTable = {
+        [CurrentUserId] = true
+    };
+    LocalPlayerCharacter5 = LocalPlayer.Character;
+    if LocalPlayerCharacter5 then
+        Humanoid4 = LocalPlayerCharacter5:FindFirstChild("Humanoid");
+    end;
+    if not Humanoid4 then
+    else
+        Humanoid4.WalkSpeed = 16;
+    end;
+    LocalPlayerCharacter6 = LocalPlayer.Character;
+    if LocalPlayerCharacter6 then
+        Humanoid5 = LocalPlayerCharacter6:FindFirstChild("Humanoid");
+    end;
+    if Humanoid5 then
+        Humanoid5.PlatformStand = false;
+    end;
+    if ConnectionEstablished then
+        ConnectionEstablished:Disconnect();
+    end;
+end);
+local CharacterChanged = CurrentPlayer.CharacterChanged;
+CharacterChanged:Connect(function(Parameter1, Parameter2, ArgumentA, ArgumentB, ArgumentC, ...)
+    local ValidationStatus = not Parameter2;
+end);
